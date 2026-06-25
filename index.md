@@ -63,3 +63,7 @@ They taught me how engineers grow.
 https://www.linkedin.com/in/drbilalphd/
 https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en
 https://www.facebook.com/Dr.BilalAhmed
+{% for post in site.posts %}
+
+[{{ post.title }}]({{ post.url }})
+{% endfor %}
